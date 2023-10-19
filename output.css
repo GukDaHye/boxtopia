@@ -1261,6 +1261,26 @@ input:checked + .toggle-bg {
   max-width: 100%;
 }
 
+.max-w-fit {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-min {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+}
+
+.max-w-\[30\%\] {
+  max-width: 30%;
+}
+
+.max-w-\[50\%\] {
+  max-width: 50%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1444,6 +1464,14 @@ input:checked + .toggle-bg {
 
 .self-center {
   align-self: center;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .whitespace-nowrap {
@@ -2391,6 +2419,14 @@ input:checked + .toggle-bg {
     width: auto;
   }
 
+  .lg\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
+  .lg\:max-w-\[40\%\] {
+    max-width: 40%;
+  }
+
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -2511,6 +2547,10 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1280px) {
+  .xl\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
   .xl\:gap-0 {
     gap: 0px;
   }
@@ -2526,5 +2566,15 @@ input:checked + .toggle-bg {
   .xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:max-w-\[30\%\] {
+    max-width: 30%;
+  }
+
+  .\32xl\:max-w-\[40\%\] {
+    max-width: 40%;
   }
 }
