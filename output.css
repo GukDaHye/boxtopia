@@ -1057,6 +1057,11 @@ input:checked + .toggle-bg {
   margin-bottom: 1.5rem;
 }
 
+.my-px {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -1125,6 +1130,10 @@ input:checked + .toggle-bg {
   margin-bottom: 0.25rem;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1185,24 +1194,16 @@ input:checked + .toggle-bg {
   height: 3rem;
 }
 
-.h-64 {
-  height: 16rem;
-}
-
 .h-9 {
   height: 2.25rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-full {
+  height: 100%;
 }
 
-.h-80 {
-  height: 20rem;
-}
-
-.h-96 {
-  height: 24rem;
+.h-60 {
+  height: 15rem;
 }
 
 .max-h-96 {
@@ -1273,26 +1274,6 @@ input:checked + .toggle-bg {
   max-width: 100%;
 }
 
-.max-w-fit {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-}
-
-.max-w-min {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
-}
-
-.max-w-\[30\%\] {
-  max-width: 30%;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1307,10 +1288,6 @@ input:checked + .toggle-bg {
 
 .shrink-0 {
   flex-shrink: 0;
-}
-
-.flex-grow {
-  flex-grow: 1;
 }
 
 .-translate-x-full {
@@ -1486,10 +1463,6 @@ input:checked + .toggle-bg {
   overflow-x: auto;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -1617,6 +1590,11 @@ input:checked + .toggle-bg {
 
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-2 {
@@ -1757,6 +1735,11 @@ input:checked + .toggle-bg {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-semibold {
@@ -2443,10 +2426,6 @@ input:checked + .toggle-bg {
     width: auto;
   }
 
-  .lg\:max-w-\[30\%\] {
-    max-width: 30%;
-  }
-
   .lg\:max-w-\[40\%\] {
     max-width: 40%;
   }
@@ -2571,10 +2550,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 1280px) {
-  .xl\:max-w-\[30\%\] {
-    max-width: 30%;
-  }
-
   .xl\:gap-0 {
     gap: 0px;
   }
@@ -2596,9 +2571,5 @@ input:checked + .toggle-bg {
 @media (min-width: 1536px) {
   .\32xl\:max-w-\[30\%\] {
     max-width: 30%;
-  }
-
-  .\32xl\:max-w-\[40\%\] {
-    max-width: 40%;
   }
 }
