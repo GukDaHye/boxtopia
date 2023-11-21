@@ -1021,10 +1021,6 @@ input:checked + .toggle-bg {
   left: 0px;
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -1289,11 +1285,6 @@ input:checked + .toggle-bg {
 
 .translate-x-0 {
   --tw-translate-x: 0px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2329,10 +2320,6 @@ input:checked + .toggle-bg {
     padding: 2rem;
   }
 
-  .md\:text-left {
-    text-align: left;
-  }
-
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -2351,11 +2338,6 @@ input:checked + .toggle-bg {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
@@ -2517,10 +2499,6 @@ input:checked + .toggle-bg {
 
   .lg\:pt-40 {
     padding-top: 10rem;
-  }
-
-  .lg\:text-left {
-    text-align: left;
   }
 
   .lg\:text-xl {
